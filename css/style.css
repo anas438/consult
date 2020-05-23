@@ -1,0 +1,437 @@
+/*Author Info
+Name:Anas Ahmed;
+Mail :anasforhad@gmail.com;
+website:xyz.com;
+*/
+/*
+=====Index=====
+
+1.Fusce at
+2.Facilisis
+3.Ante donec
+4.Blandit rhoncus
+5.Placerat
+
+==========
+*/
+
+/*google font 
+
+ body= font-family: 'Raleway', sans-serif;
+
+ p= font-family: 'Open Sans', sans-serif;
+
+ */
+
+ /* global tags */
+
+ html{
+     font-size: 100%;
+ }
+
+ body{
+     font-family: 'Raleway', sans-serif;
+ }
+
+ h1{}
+
+ h2{}
+
+ p{
+    font-family: 'Open Sans', sans-serif;
+ }
+
+
+a,
+a:hover{
+	  text-decoration:  none;
+
+}
+ .no-padding {
+   	padding: 0 !important
+ }
+
+ .no-margin{
+ 	  margin: 0 !important
+ }
+
+ .normal-radius{
+ 	  border-radius: 5px;
+ }
+
+ /* normal css */
+
+
+.top-links{
+	  background-color: #F1F2F4;
+}
+ .fa.fa-mobile.mr-1{
+ 	  font-size: 20px;
+ }
+
+
+  /*  nvigtion */
+
+.nav-head {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+ .nav-link {
+    font-weight: 700;
+    color: black;
+}
+
+.btn-orange{
+   background-color: #DE2B24;
+   color: white !important
+}
+
+.btn-cstm{
+    padding: 0.7rem 2.2rem !important;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+
+/* home sec */
+
+
+.hero{
+	  background-image: url(../img/hero.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+
+   padding: 90px 3px 54px;
+}
+
+.header-content h2 {
+	
+   color: white;	
+   font-size: 47px;
+   font-weight: 600;
+}
+
+.header-content p{
+
+   color: white;
+   font-size: 30px;
+}
+
+
+
+.btn-yellow{
+	
+   background-color: #F7CD54;	
+   color: white;	
+   display: inline-block;
+}
+.btn-cstm-wide{
+
+   padding: 1rem 2.7rem !important;
+   border-radius: 5px;
+   font-size: 0.8rem;
+   font-weight: bold;
+}
+
+/* about us sec */
+
+
+.service{
+
+}
+
+.content h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.content p {
+    font-size: 22px;
+    margin-top: -8px;
+}
+
+span.underline.mb-5 {
+    border-bottom: 4px solid black;
+    display: block;
+    margin-left: 44%;
+    margin-right: 46%;
+}
+
+.about-content{
+
+}
+
+.about-content h2 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.about-content p {
+    font-size: 15px;
+}
+
+
+/* approach section */
+
+
+
+.approach{}
+
+.bg-gray{
+	  background-color:#F3F3F3; 
+}
+.approach-heading{}
+
+.approach-heading h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.approach-heading p {
+    font-size: 21px;
+    margin-top: -2px;
+}
+
+/* content strt*/
+
+.approach-content {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+.bg-white {
+    background: #fff;
+}
+
+.bg-orange {
+    background: #DE2B24;
+}
+
+.approach-img img {
+    position: relative;
+    width: 100%;
+    border-radius: 0px 3px 3px 0px;
+}
+
+
+.step {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 10px 23px 10px 23px;
+    border: 2px solid #fff;
+    transform: translate(50%,-50%);
+    border-radius: 3px;
+}
+.step h3{
+	
+    font-size: 37px;
+    font-weight: 700;
+    line-height: .7;
+}
+
+
+.approach-desc{}
+
+.approach-desc h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.approach-desc p {
+    font-size: 96%;
+}
+
+.approach-text-left {
+    text-align: left !important;
+    margin-left: 2.5rem;
+    margin-right: 2rem;
+}
+
+.approach-text-right {
+    text-align: right !important;
+    margin-right: 2.5rem;
+    margin-left: 5rem;
+}
+
+
+.step-two{
+	  position: absolute;
+	  top: 50%;
+	  left: -80px;
+	  padding: 10px 23px 10px 23px;
+	  border: 2px solid #fff;
+	  transform: translate(50%,-50%);
+	  border-radius: 3px;
+}
+
+.step-two h3{
+	
+    font-size: 37px;
+    font-weight: 700;
+    line-height: .7;
+}
+
+
+/* contnt end*/
+
+/* approach sec end */
+
+/* work section strt */
+
+.work{
+
+}
+
+.work-heading{
+
+}
+
+.work-heading h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.work-heading p {
+    font-size: 21px;
+    margin-top: -2px;
+}
+
+
+.underline-white{
+    border-bottom: 4px solid white;
+    display: block;
+    margin-left: 44%;
+    margin-right: 46%;
+}
+
+/* cntnt strt*/
+
+.work-img img {
+    width: 100%;
+    margin: -10px;
+}
+
+/* consult sec */
+/* hedng sec */
+
+.bg-blue{
+	  background-color: #1286BF;
+}
+
+.conso{
+
+}
+
+.conso-heading{
+
+}
+
+.conso-heading h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.conso-heading p {
+    font-size: 21px;
+    margin-top: -2px;
+}
+
+
+.open-icon {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    width: 30%;
+    font-size: 45px;
+}
+
+/* contnt sec*/
+
+.contact-form-container {
+    padding: 3.8rem;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    clip-path: polygon(50% 0%, 45% 8%, 0% 8%, 0% 100%, 100% 100%, 100% 8%, 55% 8%);
+    position: relative;
+    
+}
+
+.contact-form-container p {
+  
+}
+
+.croose-btn {
+    z-index: 2;
+    position: absolute;
+    top: 45px;
+    right: 5px;
+}
+
+i#closeForm {
+    color: #DE2B24;
+    font-size: 42px;
+}
+/* end */
+
+/* footer */
+
+.bg-dark{
+    background-color: #2A2A2A !important
+}
+
+.footer{
+
+}
+
+.footer-heading{
+
+}
+
+.footer-heading h2 {
+    font-size: 42px;
+    font-weight: bold;
+    padding-top: 79px;
+}
+
+
+p.text-center.logo-continer.mt-3 {
+    color: #fff;
+}
+i.fa.fa-facebook {
+    margin: 11px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+i.fa.fa-twitter {
+    margin: 11px;
+    border: 1px solid white;
+    padding: 5px;
+}
+i.fa.fa-google-plus {
+    margin: 11px;
+    border: 1px solid white;
+    padding: 5px;
+}
+i.fa.fa-linkedin {
+    margin: 11px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+
+.footer-finis {
+    padding-bottom: 30px;
+}
+
+.footer-finis p {
+  
+}
